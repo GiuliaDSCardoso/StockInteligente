@@ -33,6 +33,15 @@ body{
     margin-right: 10px;
     cursor: pointer;
     font-size: 20px;
+    
+}
+.menu h3 a {
+    text-decoration: none;
+    color: #005EA9;
+}
+
+.menu h3 a:hover {
+    color: black;
 }
 
 .menu h3:hover{
@@ -46,36 +55,7 @@ body{
     
 }
 /*--------------------------------------------------------------------------*/
-@media (max-width: 768px) {
-    .Logo1 img {
-        width: 100%; /* Ajusta a largura para telas menores */
-        max-width: 300px; /* Reduz o limite máximo em telas menores */
-        
-    }
 
-}
-
-@media (max-width: 480px) {
-    .menu {
-        width:100%; /* Ainda mais flexível em telas muito pequenas */
-        max-width: 250px; /* Reduz o limite máximo */
-    }
-}
-@media (max-width: 768px) {
-    .Logo1 img {
-        width: 100%; /* Ajusta a largura para telas menores */
-        max-width: 300px; /* Reduz o limite máximo em telas menores */
-        
-    }
-
-}
-
-@media (max-width: 480px) {
-    .Logo1 img {
-        width:100%; /* Ainda mais flexível em telas muito pequenas */
-        max-width: 250px; /* Reduz o limite máximo */
-    }
-}
 /*--------------------------------------------------------------------------*/
 .container{
     display: flex;
