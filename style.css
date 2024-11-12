@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+}
+.top{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    height: 6vh;
+
+}
+
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.logo1{
+    display: flex;
+    margin-left: 10%;
+    justify-content: flex-start;
+    height: 40px;
+    
+}
+.menu{
+    margin-right: 2%;
+    display: flex;
+    gap: 2.5vh;
+}
+.menu h3{
+    color: #005EA9;
+    font-family: 'Lato', sans-serif;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.menu h3:hover{
+    color: black;
+}
+
+.menu h3:not(:last-child)::after{
+    content: "|";
+    color: #005EA9;
+    margin-left: 30px;
+    
+}
+/*--------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+    .Logo1 img {
+        width: 100%; /* Ajusta a largura para telas menores */
+        max-width: 300px; /* Reduz o limite máximo em telas menores */
+        
+    }
+
+}
+
+@media (max-width: 480px) {
+    .menu {
+        width:100%; /* Ainda mais flexível em telas muito pequenas */
+        max-width: 250px; /* Reduz o limite máximo */
+    }
+}
+@media (max-width: 768px) {
+    .Logo1 img {
+        width: 100%; /* Ajusta a largura para telas menores */
+        max-width: 300px; /* Reduz o limite máximo em telas menores */
+        
+    }
+
+}
+
+@media (max-width: 480px) {
+    .Logo1 img {
+        width:100%; /* Ainda mais flexível em telas muito pequenas */
+        max-width: 250px; /* Reduz o limite máximo */
+    }
+}
+/*--------------------------------------------------------------------------*/
+.container{
+    display: flex;
+    margin-top: 10px;
+    background-color: #005EA9;
+    width: 100%;
+    height: 90vh;
+}
+.imagem1{
+    display: flex;
+    flex-basis: 50%;
+    width: 80%;
+}
+.imagem1 img{
+    width: 100%;
+}
+
+
+
+.ladoEsquerdo{
+    display: flex;
+    align-items: center;
+    flex-basis: 50%;
+    justify-content: center;
+}
+.imagemlogo img{
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 70%;
+}
+
+.textesquerdo h4{
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    font-family: 'Lato';
+    align-items: center;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 20px;
+    margin-top: -1px;
+    width: 300px;
+    text-align: center;
+}
+
