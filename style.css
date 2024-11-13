@@ -1,5 +1,7 @@
 body{
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 .top{
     display: flex;
@@ -59,10 +61,15 @@ body{
 /*--------------------------------------------------------------------------*/
 .container{
     display: flex;
-    margin-top: 10px;
-    background-color: #005EA9;
+    margin-top: 0;
+    position: absolute;
+    background-image: url(Imagens/Meia-noite\ azul\ elegante\ fundo\ aquarela\ _\ Vetor\ Grátis.jpeg);
+    background-size: cover;
+    background-position:center;
+    opacity: 10;
+    z-index: -1;
     width: 100%;
-    height: 90vh;
+    height: 95vh;
 }
 .imagem1{
     display: flex;
