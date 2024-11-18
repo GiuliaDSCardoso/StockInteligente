@@ -56,100 +56,81 @@ a{
 a:hover{
     color: rgb(112, 146, 254);
 }
-/*---==================================---*/
-.corpo1{
+
+main {
+    padding-top: 12vh;
+    text-align: center;
+}
+.led-container{
     background-image: url(imagem/fundoazul.jpeg);
     mask-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 70vh;
-    padding-top: 30vh;
-   
-}
-
-.weight-container {
-    width: 400px;
-    margin: 50px auto; /* Centraliza horizontalmente */
-    padding: 20px;
-    border: 2px solid #02114942;
-    border-radius: 10px;
-    background-color: rgb(2, 29, 92);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
-    text-align: center;
-    font-family: 'Inter';
-    margin-top: -5px;
-}
-
-.weight-container h2 {
-    margin-bottom: 30px;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 300;
-}
-
-.weight-form {
-    margin-top: 5px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.input-group {
-    margin-top: -10px;
-    margin-bottom: -2px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.input-group label {
-    color: white;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    color: #555;
-}
-.input-group h3{
-    margin-top: -3px;
-    font-family: 'Inter';
-    color: white;
-    font-weight: 200;
+    height: 130vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     
 }
-.input-group input {
-    margin-top: -3px;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
+.led-container h2 {
+    background-color: rgba(1, 16, 81, 0.718);
+    height: 80px;
+    padding-top: 60px;
+    background-size: 200px, 50px;
+    margin-top: -70px;
+    color: rgba(255, 255, 255, 0.861);
+    margin-bottom:50px;
+    font-size: 24px;
+    font-weight: 200;
+    font-family: 'Inter';
+    padding-bottom: 20px;
 }
 
-.input-group input:focus {
-    border-color: #007BFF;
-    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
+.led-grid {
+    margin-top: -30px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* 5 LEDs por fileira */
+    gap: 10px;
+    
 }
 
-button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #044993;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+.led {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(70, 255, 9); /* Estado inicial */
+    border: 5px solid rgba(36, 98, 213, 0.459);
     transition: background-color 0.3s ease;
 }
-
-button:hover {
-    background-color: #0056b3;
+.led-item {
+    display: flex;
+    flex-direction: column; /* Organiza imagem acima do LED */
+    align-items: center;
+    gap: 2px; /* Espaçamento entre a imagem e o LED */
 }
 
-/*========================================================*/
+.led-item img {
+    margin-bottom: -20px;
+    width: 150px; /* Tamanho da imagem */
+    height: 150px;
+    object-fit: cover; /* Garante que a imagem se ajuste ao tamanho */
+}
+.led-item h3{
+    margin-top: 70px;
+    background-color: rgba(1, 16, 81, 0.718);
+    color: white;
+    font-family: 'Inter';
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: -30px;
+    padding-bottom: -20px;
+    padding-top: 10px;
+    width: 50px;
+    height: 30px;
+    border-radius: 500px;
+}
+
 footer {
-    display: flex;
+     display: flex;
     flex-direction: column; /* Alinha os itens em coluna */
     background-color: rgba(246, 238, 238, 0.925);
     height: 25vh;

@@ -62,90 +62,49 @@ a:hover{
     mask-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 70vh;
-    padding-top: 30vh;
+    height: 80vh;
+    
+    padding-top: 20vh;
    
 }
 
-.weight-container {
-    width: 400px;
-    margin: 50px auto; /* Centraliza horizontalmente */
-    padding: 20px;
-    border: 2px solid #02114942;
-    border-radius: 10px;
-    background-color: rgb(2, 29, 92);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
-    text-align: center;
-    font-family: 'Inter';
-    margin-top: -5px;
-}
-
-.weight-container h2 {
-    margin-bottom: 30px;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 300;
-}
-
-.weight-form {
-    margin-top: 5px;
+.legenda1{
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
 }
-
-.input-group {
-    margin-top: -10px;
-    margin-bottom: -2px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.input-group label {
-    color: white;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    color: #555;
-}
-.input-group h3{
-    margin-top: -3px;
-    font-family: 'Inter';
-    color: white;
-    font-weight: 200;
+.legenda1 h2{
+    color: rgba(254, 254, 209, 0.838);
+    margin-top: -30px;
+    text-align: justify;
+    font-family:'Alumni Sans Pinstripe';
+    justify-content: center;
+    font-style: normal;
+    font-size: 30px;
+    font-weight:800;
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
     
 }
-.input-group input {
-    margin-top: -3px;
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    outline: none;
-}
-
-.input-group input:focus {
-    border-color: #007BFF;
-    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #044993;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
+.legenda1 h3{
+    
+    color: rgba(254, 254, 209, 0.838);
+    margin-top: -10px;
+    text-align: justify;
+    font-family:'Inter';
+    justify-content: center;
+    font-style: normal;
+    font-size: 15px;
+    font-weight:300;
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    
+} 
 
 /*========================================================*/
 footer {

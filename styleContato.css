@@ -62,89 +62,83 @@ a:hover{
     mask-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 70vh;
-    padding-top: 30vh;
-   
+    height: 60vh;
+    padding-top: 10vh;
+    padding-bottom: 30vh;
 }
 
-.weight-container {
-    width: 400px;
-    margin: 50px auto; /* Centraliza horizontalmente */
-    padding: 20px;
-    border: 2px solid #02114942;
-    border-radius: 10px;
-    background-color: rgb(2, 29, 92);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.425);
-    text-align: center;
-    font-family: 'Inter';
-    margin-top: -5px;
-}
+.contact-section {
 
-.weight-container h2 {
-    margin-bottom: 30px;
-    font-size: 18px;
-    color: #ffffff;
-    font-weight: 300;
-}
-
-.weight-form {
-    margin-top: 5px;
     display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-
-.input-group {
-    margin-top: -10px;
-    margin-bottom: -2px;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-}
-
-.input-group label {
-    color: white;
-    font-size: 12px;
-    margin-top: 10px;
-    margin-bottom: -5px;
-    color: #555;
-}
-.input-group h3{
-    margin-top: -3px;
-    font-family: 'Inter';
-    color: white;
-    font-weight: 200;
+    justify-content: center;
+    align-items: center;
+    min-height: 85vh;
+    margin-top: 20px;
     
 }
-.input-group input {
-    margin-top: -3px;
-    padding: 8px;
-    font-size: 14px;
+
+.contact-container {
+    
+    background-color: rgb(2, 29, 92);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-family: 'Inter';
+    font-size: 1rem;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 200;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 96%;
+    padding: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-size: 1rem;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+textarea:focus {
+    border-color: #005EA9;
     outline: none;
 }
 
-.input-group input:focus {
-    border-color: #007BFF;
-    box-shadow: 0 0 4px rgba(0, 123, 255, 0.4);
-}
-
 button {
-    margin-top: 10px;
-    padding: 10px 15px;
-    font-size: 14px;
-    font-weight: bold;
-    color: #fff;
-    background-color: #044993;
+    background-color: #005EA9;
+    color: white;
+    padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #004080;
+}
+.imgcont img{
+    margin-top:70px;
+    border-radius:1000px ;
+    width: 400px;
+    height: 400px;
+    image-rendering: auto;
 }
 
 /*========================================================*/
@@ -201,3 +195,5 @@ footer h4 {
 h5:hover{
     color: rgb(112, 146, 254);
 }
+/*======================Pag Sobre==========================*/
+
