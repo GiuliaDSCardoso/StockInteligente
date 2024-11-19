@@ -9,7 +9,7 @@ header{
     display: flex;
     width: 100%;
     position: fixed;
-   
+    z-index: 999;
 }
 nav{
     
@@ -17,18 +17,18 @@ nav{
     display: flex;
     align-items: center;
     height: 10vh;
-    gap: 10vh;
+    gap: 6vh;
    
 }
 nav img{
     margin-left: 2%;
     display: flex;
-    width: 10vh;
-    height: 10vh;
+    width: 15vh;
+    height: 5vh;
 }
 nav h1{
     display: flex;
-    margin-left: -5vh;
+    margin-left: -3vh;
     margin-right: 10vh;
     font-family:'Inter';
     font-size: 22px;
@@ -94,15 +94,29 @@ a:hover{
 }
 .imgcont img{
     margin-top:20px;
-    border-radius:1000px ;
-    width: 400px;
+    border-radius:200px ;
+    width: 500px;
     height: 400px;
     image-rendering: auto;
+    border: 5px solid rgba(8, 18, 73, 0.406);
 }
 
-.imgcont img:hover{
-    opacity: 80%;
+@keyframes spinZoom {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(1.01) rotate(5deg); /* Zoom e rotação intermediária */
+    }
+    100% {
+        transform: scale(1) rotate(0deg); /* Volta ao estado inicial */
+    }
 }
+
+.imgcont img:hover {
+    animation: spinZoom 2s ease-in-out; /* Nome, duração e suavização da animação */
+}
+
 /*========================================================*/
 footer {
     display: flex;

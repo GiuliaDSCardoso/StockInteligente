@@ -69,12 +69,33 @@ a:hover{
 }
 
 .legenda1{
-    margin-top: 20px;
+    background-color: rgba(1, 16, 81, 0.718);
+    margin-top: -30px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
+    margin-left: 50vh;
+    margin-right: 40vh;
+    border-radius: 50px;
+    padding-top: 30px;
+    border: 5px solid rgba(1, 13, 81, 0.262);
+}
+@keyframes spinZoom {
+    0% {
+        transform: scale(1) rotate(0deg);
+    }
+    50% {
+        transform: scale(0.95) rotate(2deg); /* Zoom e rotação intermediária */
+    }
+    100% {
+        transform: scale(1) rotate(0deg); /* Volta ao estado inicial */
+    }
+}
+
+.legenda1:hover {
+    animation: spinZoom 2s ease-in-out; /* Nome, duração e suavização da animação */
 }
 .legenda1 h2{
     color: rgba(254, 254, 209, 0.838);
@@ -86,8 +107,8 @@ a:hover{
     font-size: 30px;
     font-weight:800;
     padding-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
     
 }
 .legenda1 h3{
@@ -101,8 +122,8 @@ a:hover{
     font-size: 15px;
     font-weight:300;
     padding-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 10vh;
+    padding-right: 10vh;
     
 } 
 
