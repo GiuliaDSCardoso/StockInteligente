@@ -70,16 +70,16 @@ a:hover{
 
 .legenda1{
     background-color: rgba(1, 16, 81, 0.718);
-    margin-top: -30px;
+    margin-top: -10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     margin-left: 50vh;
     margin-right: 40vh;
     border-radius: 50px;
-    padding-top: 30px;
+    padding-top: 40px;
     border: 5px solid rgba(1, 13, 81, 0.262);
 }
 @keyframes spinZoom {
